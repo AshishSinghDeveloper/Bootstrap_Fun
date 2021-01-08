@@ -6,3 +6,10 @@
 /Bootstrap_Fun/.vs/Bootstrap_Fun/v16
 /BootstrapOnCShtml/bin/Debug/netcoreapp3.1
 /BootstrapOnCShtml/obj
+/Bootstrap_Fun/bin/Debug/netcoreapp3.1
+/Bootstrap_Fun/lib/twitter-bootstrap
+/Bootstrap_Fun/wwwroot/lib/jquery
+/BootstrapOnCShtml/wwwroot/lib/bootstrap
+/BootstrapOnCShtml/wwwroot/lib/jquery
+/BootstrapOnCShtml/wwwroot/lib/jquery-validation
+/BootstrapOnCShtml/wwwroot/lib/jquery-validation-unobtrusive
