@@ -2,6 +2,69 @@
     ViewData["Title"] = "Home Page";
 }
 
+<hr />
+<h3>Nested rows and column</h3>
+<div class="row">
+    <div class="col-md-3">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="sidebarContent"> SideBar1</div>
+            </div>
+            <div class="col-md-12">
+                <div class="sidebarContent"> SideBar2</div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-9 mainContent">
+        Main Content Area
+    </div>
+</div>
+
+<hr />
+<h3>offset with image</h3>
+<div class="row">
+    <img src="~/images/img102.jpg" class="col-md-4 offset-md-4 img-thumbnail"/>
+</div>
+<br />
+<div class="row">
+    <div class="col-md-4">
+        <div class="customDiv">Columm 1</div>
+    </div>
+    <div class="col-md-4">
+        <div class="customDiv">Columm 2</div>
+    </div>
+    <div class="col-md-4">
+        <div class="customDiv">Columm 3</div>
+    </div>
+</div>
+
+<hr />
+<h3>Grid column offset</h3>
+<div class="row">
+    <div class="col-md-3 offset-md-3">
+        <div class="customDiv">Columm 1</div>
+    </div>
+    <div class="col-md-3">
+        <div class="customDiv">Column 2</div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-3">
+        <div class="customDiv">Columm 1</div>
+    </div>
+    <div class="col-md-3">
+        <div class="customDiv">Columm 2</div>
+    </div>
+    <div class="col-md-3">
+        <div class="customDiv">Columm 3</div>
+    </div>
+    <div class="col-md-3">
+        <div class="customDiv">Columm 4</div>
+    </div>
+</div>
+
+<hr />
+<h3>Grid System</h3>
 <div class="row">
     <div class="col-md-2">
         <div class="customDiv">LEFT SIDE BAR</div>
@@ -13,4 +76,5 @@
         <div class="customDiv">RIGHT SIDE BAR</div>
     </div>
 </div>
+
 
